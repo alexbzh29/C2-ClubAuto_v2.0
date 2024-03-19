@@ -1,110 +1,139 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-@media screen and (max-width: 1200px) {/* Insérez vos propriétés CSS ici, avec vos sélecteurs*/}
-@media all and (min-width: 1024px) and (max-width: 1280px){/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */}
-@media all and (orientation: portrait){/* Sur tous types d'écrans orientés verticalement */}  
+@media screen and (max-width: 1200px) {
+  /* Insérez vos propriétés CSS ici, avec vos sélecteurs*/
+}
 
-html{
-    font-family: 'Kalam', cursive;
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
 }
-body{
-  background-color: #fcfcfd;;
+
+@media all and (min-width: 400px) and (max-width: 700px) {
+  /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
 }
+
+@media all and (orientation: portrait) {
+  /* Sur tous types d'écrans orientés verticalement */
+}
+
+
+html {
+  font-family: 'Kalam', cursive;
+}
+
+body {
+  background-color: #c3c3c3;
+  ;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /*-----------------------------------header---------------------*/
-.container{
+.container {
   display: flex;
   justify-content: space-between;
   padding: 5px;
   background-color: rgb(0, 0, 0);
 }
 
- .colum1{
+.colum1 {
   display: flex;
   padding: 5px;
-  margin-top: 5% ;
+  margin-top: 5%;
   color: #ffffff;
- }
- .colum2{
-  color: #ffffff;
- }
- .colum3{
-  color: #ffffff;
- }
- .colum4{
-  color: #ffffff;
- }
- .colum5{
-  color: #ffffff;
- }
- .colum6{
-  display: flex;
-  margin: 1px;
-  padding: 1px;
-  margin-top:3em ;
- }
-
-.color{
-display: flex;
- color:  #CC6119;
- width:1px;
- padding: 1%;
- margin:1px ;
 }
 
-.adresse{
+.colum2 {
+  color: #ffffff;
+}
+
+.colum3 {
+  color: #ffffff;
+}
+
+.colum4 {
+  color: #ffffff;
+}
+
+.colum5 {
+  color: #ffffff;
+}
+
+.colum6 {
   display: flex;
   margin: 1px;
   padding: 1px;
+  margin-top: 3em;
 }
-.telephone{
+
+.color {
+  display: flex;
+  color: #CC6119;
+  width: 1px;
+  padding: 1%;
+  margin: 1px;
+}
+
+.adresse {
   display: flex;
   margin: 1px;
   padding: 1px;
 }
 
-.ouverture{
+.telephone {
   display: flex;
   margin: 1px;
   padding: 1px;
-  margin-top:3em ;
 }
-.horaires{
-  display: flex;
-  margin: 1px;
-  padding: 1px;
-  margin-top:3em ;
-}
-.color1{
-  display: flex;
-  color:  #CC6119;
-  width:1px;
-  padding:1%;
-  margin:1px ;
-  margin-top:20px;
- }
 
-.logo-adresse{
-  display:flex;
+.ouverture {
+  display: flex;
+  margin: 1px;
+  padding: 1px;
+  margin-top: 3em;
+}
+
+.horaires {
+  display: flex;
+  margin: 1px;
+  padding: 1px;
+  margin-top: 3em;
+}
+
+.color1 {
+  display: flex;
+  color: #CC6119;
+  width: 1px;
+  padding: 1%;
+  margin: 1px;
+  margin-top: 20px;
+}
+
+.logo-adresse {
+  display: flex;
   width: 50px;
-  padding:1px;
+  padding: 1px;
   margin: 1px;
 }
 
-.logo-telephone{
-  display:flex;
+.logo-telephone {
+  display: flex;
   width: 50px;
   padding: 1px;
   margin: 1px;
 }
 
-.facebook{
+.facebook {
   width: 25px;
   display: inline-flex;
   padding: 1px;
   margin: 15px;
   background-color: #CC6119;
 }
-.twitter{
+
+.twitter {
   width: 25px;
   display: inline;
   padding: 1px;
@@ -116,7 +145,7 @@ display: flex;
 
 /*---------debut barre de nav-------------*/
 
-.navbar{
+.navbar {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -136,7 +165,7 @@ ul {
 
 li {
   float: right;
-  
+
 }
 
 li a {
@@ -147,8 +176,9 @@ li a {
   text-decoration: none;
 }
 
-nav ul{
-  flex-direction: row-reverse; /*inverse les élements de nav*/
+nav ul {
+  flex-direction: row-reverse;
+  /*inverse les élements de nav*/
 }
 
 li a:hover:not(.active) {
@@ -157,9 +187,9 @@ li a:hover:not(.active) {
 
 /*------------fin barre de nav-----------*/
 
-/*------------park auto------------------*/
+/*------------parc auto------------------*/
 .img1 {
-  width: 100%; 
+  width: 100%;
   margin: 0px;
   padding-top: 5px;
 }
@@ -167,263 +197,332 @@ li a:hover:not(.active) {
 .bandeau {
   margin: 0px;
   padding-left: 10px;
-  color: #ffffff;
+  color: aliceblue;
   background-color: #000000;
   line-height: 2em;
   font-size: 35px;
+  text-align: center;
 }
 
-.ma {
-  color: #CC6119 ;
-  width: 100%;
-  font-size: 2em;
-
-   }
-/*------------fin park auto--------------*/
+/*------------fin parc auto--------------*/
 
 
 /*------------photo clients et texte-----*/
-img{
+.img {
   height: auto;
   width: 70%;
   margin: 15px;
   padding: 5px -30;
 }
 
-#welcome{
+.welcome {
   display: inline-flex;
 }
-.ca{
+
+.titreh2 {
   color: #CC6119;
   font-size: 50px;
-}
-
-#text1{
+  margin: 1%;
   padding: 0px;
 }
 
-/*-------------fin---------------------*/
-
-.lustrage {
-  width:5%; 
-  height: 5px;
-  margin: 40px;
+.text1 {
+  padding: 0px;
+  margin: 1%;
 }
 
 .liste {
-  color: rgb(255, 255, 255);
+  color: aliceblue;
   width: 25%;
   padding-inline: 5%;
-  margin: 2%;
-  margin-left:12%;
+  margin: 10px;
+  margin-left: 10%;
+  margin-right: auto;
 }
 
 .liste::before {
-  content: '\2713'; /* Code Unicode pour la coche ✔ */
+  content: '\2713';
+  /* Code Unicode pour la coche ✔ */
   color: #CC6119;
-  margin-right: 5px;
+  margin-right: 3%;
 }
 
-.ligne-marron{
+/*-------------fin---------------------------------------*/
+/*------------image technicien lustarge------------------*/
+.lustrage {
+  width: 100%;
+  margin: 0px;
+}
+
+.ligne-marron {
   color: #CC6119;
 }
 
-.pause{
-
-  width:90%; 
-  margin-top: 10%;
-  margin-left: 5%;
+/*----------------------Pause----------------------------*/
+.content {
+  background-color: #000000;
+  margin-bottom: 1%;
+  padding-top: 0%;
+  padding-bottom: 1%;
 }
 
-.block2 {
+.pause {
+  width: 100%;
+  margin: 0px;
+  padding-top: 5px;
+}
+
+.bloc1 {
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style: double;
   background-color: #fab637;
-  margin: 3%;
-  padding-top: 1%;
+  margin: 1%;
+  padding: 1%;
 }
 
-.block1 {
+.bloc2 {
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style: double;
   background-color: #FF4848;
-  margin: 3%;
-  padding-top: 1%;
+  margin: 1%;
+  padding: 1%;
 }
 
-/*véhicules recents block */
-
-#vehicule1{
-  width: 50%;
-  height: auto;
-  margin-left: 5%;
+.text-bloc1 {
+  margin: 1%;
+  padding: 5px;
+  padding-bottom: 1%;
+  background-color: #fab637;
 }
-.prix1{
-  background-color: #6C98E1;
+
+.text-bloc2 {
+  margin: 1%;
+  padding: 5px;
+  background-color: #FF4848;
+  padding-bottom: 1%;
+}
+
+/*------------------véhicules recents--------------*/
+.content1 {
+  display: flex;
+  background-color: #000000;
+  margin-top: 0%;
+  padding-bottom: 1%;
+}
+
+.titreh4 {
+  background-color: #000000;
+  color: aliceblue;
   text-align: center;
+  font-size: 15px;
+  margin-top: 0%;
+  margin-bottom: 5px;
 }
 
-#vehicule2{
-  width: 50%;
-  height: auto;
-  margin-left: 5%;
+.ligne-marron {
+  background-color: #CC6119;
+  height: 3px;
 }
-.prix2{
-  background-color: #6C98E1;
+
+.bmw535 {
+  width: 40%;
+  color: aliceblue;
   text-align: center;
+  margin: 5px;
 }
 
-#vehicule3{
-  width: 50%;
-  height: auto;
-  margin-left: 5%;
-}
-.prix3{
-  background-color: #6C98E1;
+.bmw328 {
+  width: 40%;
+  color: aliceblue;
   text-align: center;
+  margin: 5px;
 }
 
-/*pourquoi nous choisir*/
-#service{
+.ford4wd {
+  width: 40%;
+  color: aliceblue;
+  text-align: center;
+  margin: 5px;
+}
+
+.prix {
+  background-color: #6C98E1;
+  font-size: larger;
+}
+
+.prix-barre {
+  text-decoration: line-through;
+  font-size: larger;
+  background-color: #FF4848;
+}
+
+/*------------nous choirsir--------------------------------*/
+h4 {
+  text-align: center;
+  font-size-adjust: 1;
+}
+
+.service {
   display: flex;
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   padding: 20px;
   text-align: center;
 }
-.service_item p{
+
+.service_item p {
   text-align: justify;
   padding: 20px;
   width: auto;
 }
-.sticker{
+
+.sticker {
   width: 15%;
 }
 
-.btn1{
-  background-color: #6C98E1;
-}
+/*--------------footer-------------------------------------*/
 
-#img6{
-  width: 100%;
-  height: auto;
-}
-/*yellowblock*/
-#yellowblock{
-  background-color: #FAB637;
-}
-
-/*--------------footer-------------*/
-
-.footer{
-  display:flexbox;
+.footer {
+  display: flexbox;
   grid-template-columns: 250px 250px 250px 250px;
-  grid-auto-rows: 110px;
   background-color: #000000;
-  color: #ffffff;
+  color: aliceblue;
   text-align: center;
 }
 
-#club{
+.club {
   color: #6C98E1;
 }
 
-/*icon reseaux sociaux*/
-.reseaux{
+.horaires {
+  text-align: start;
+}
+
+/*-----------------------------icon reseaux sociaux---------------------*/
+.reseaux {
   background-color: #000000;
   text-decoration: none;
   border-radius: 5px;
 }
-.facebook1{
+
+.facebook1 {
   background-color: #ffffff;
-  width: 30px; 
-  height: auto;
-  border-radius: 5px;
-}
-.twitter1{
-  background-color: #ffffff;
-  width: 30px; 
-  height: auto;
-  border-radius: 5px;
-}
-.insta1{
-  background-color: #ffffff;
-  width: 30px; 
-  height: auto;
-  border-radius: 5px;
-}
-.google1{
-  background-color: #ffffff;
-  width: 30px; 
+  width: 30px;
   height: auto;
   border-radius: 5px;
 }
 
-.Copyright{
+.twitter1 {
+  background-color: #ffffff;
+  width: 30px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.insta1 {
+  background-color: #ffffff;
+  width: 30px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.google1 {
+  background-color: #ffffff;
+  width: 30px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.Copyright {
   color: #000000;
+  text-align: center;
+}
+
+/*-------------------contact------------------------------------------------*/
+
+.img6 {
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  padding-bottom: 0%;
+}
+.titre-h1{
+  text-align: center;
+  color: #CC6119;
+}
+/*champs de formulaire------------------------------------------------------*/
+.form{
   text-align:center;
 }
 
-/*contact*/
-
-.img6{
-  width: 100%;
-  margin: 0%;
-  padding:0%;
-  padding-bottom: 0%;
-}
-
-/*champs de formulaire*/
 .contactez-nous {
-  width: 700px;
+  width: 500px;
   border: 1px solid;
   border-radius: 8px;
-  padding: 0 50px 0 50px;
+  margin-left: 25%;
+  padding: 2%;
   background: white;
-  }
-#nom{
-  color: #CC6119;
-  background-color: #ECEFF3;
-  width: 25%;
-  height:50px;
 }
-#prenom{
+
+#nom {
   color: #CC6119;
-  background-color: #ECEFF3;
-  width:25%;
-  height: 50px;
-}
-#email{
-  color: #CC6119;
-  background-color: #ECEFF3;
-  width: 25%;
-  height:50px;
-}
-#telephone{
-  color: #CC6119;
-  background-color: #ECEFF3;
-  width: 25%;
-  height: 50px;
-}
-#message{
-  color: #CC6119;
+  font-size: larger;
   background-color: #ECEFF3;
   width: 25%;
   height: 50px;
 }
 
-input{
+#prenom {
+  color: #CC6119;
+  font-size: larger;
+  background-color: #ECEFF3;
+  width: 25%;
+  height: 50px;
+}
+
+#email {
+  color: #CC6119;
+  font-size: larger;
+  background-color: #ECEFF3;
+  width: 25%;
+  height: 50px;
+}
+
+#telephone {
+  color: #CC6119;
+  font-size: larger;
+  background-color: #ECEFF3;
+  width: 28%;
+  height: 50px;
+}
+
+#message {
+  color: #CC6119;
+  font-size: larger;
+  background-color: #ECEFF3;
+  width: 28%;
+  height: 50px;
+}
+
+input {
   flex-wrap: wrap;
   display: flex;
   margin-top: 2px;
   margin-bottom: 5px;
-  margin: 10px;;
+  margin: 10px;
   padding: 5px;
   padding-right: 15em;
   border-radius: 5px;
   background-color: #ffffff;
 }
-textarea{
+
+textarea {
   display: flex;
   margin-top: 2px;
   margin-bottom: 10px;
-  flex-direction:column;
+  flex-direction: column;
   margin: 10px;
   padding: 10px;
   padding-right: 15em;
@@ -434,31 +533,23 @@ textarea{
   background-color: #a59f9f;
 }
 
-button{
+button {
   display: flex;
   margin-top: 2px;
   margin-bottom: 10px;
-  flex-direction:column;
-  padding: 10px;
-  padding-right: 15em;
-  margin-left: 2em;
+  flex-direction: column;
+  padding: 5px;
+  padding-right: 1em;
+  margin-left: 5%;
   border-radius: 5px;
-  background-color: #8ae199;
+  background-color: #87e196;
 }
 
-/*fin du formulaire*/
+/*----------------------------fin du formulaire-----------------------------------------------------*/
 
+/*--------------------------------location----------------------------------------------------------*/
 
-/*location*/
-.img4{
- display: flex;
- width: 90%;
- height:auto;
- margin: 10px;
- padding:12px;
-}
-
-.selection{
+.selection {
   margin: 10px;
   margin: left 5%;
   padding: auto;
@@ -466,41 +557,36 @@ button{
 }
 
 .container {
-  display: flex;
-  position: relative;
-  text-align: left;
   color: rgb(0, 0, 0);
+  position: relative;
+  text-align:center;
+  padding-top:1%;
+  padding-bottom:2%;
+  height: 50% ;
 }
 
-.eurosjours{
+.eurosjours {
+  text-align: center;
+  display: grid;
   padding: 5px;
   margin: 10px;
   background-color: #6C98E1;
 }
-
-/*ventes*/
-
-.vente {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  margin: 0;
+.texte-location{
+  color: aliceblue;
 }
 
-.container {
-  display: flex;
+.ensavoirplus{
+  color: #CC6119;
+  text-decoration: none;
 }
 
-.column1 > .column2 > .column3 > .Column4 {
-  flex: 2;
+ a:hover:not(.active) {
+  background-color: #CC6119;
+  text-decoration: none;
+  color: aliceblue;
+}
+/*-------------------Ventes----------------------------------*/
+.vente{
   text-align: center;
-  padding: 30px;
-  margin: 0 10px;
 }
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-

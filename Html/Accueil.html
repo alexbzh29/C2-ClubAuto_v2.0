@@ -1,68 +1,146 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/bootstrap.min.css"> <!--lien css bootstrap-->
-    <link rel="stylesheet" href="/CSS/c2-projet.css">
-    <script src="JS/bootstrap.bundle.min.js" defer></script> <!--lien js bootstarp//differé-->
-    <title>Club Auto</title> <!--titre de l'onglet-->
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <!--lien css bootstrap-->
+    <link rel="stylesheet" href="/CSS/c2-projet.css" />
+    <script src="JS/bootstrap.bundle.min.js" defer></script>
+    <!--lien js bootstarp//differé-->
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-11451417421"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<body> 
+      gtag("config", "AW-11451417421");
+    </script>
+    <!-- Event snippet for Page vue conversion page-->
+    <script>
+      gtag("event", "conversion", {
+        send_to: "AW-11451417421/bmaMCISU3IAZEM2Gu9Qq",
+      });
+    </script>
 
-<!--début du header-->
-<header class="header text-responsive">
+    <title alt="titre du site dans l'onglet navigateur">Club Auto</title>
+    <!--titre de l'onglet-->
+  </head>
 
-  <div class="title">
-      <p><strong><h1>CLUB AUTO</h1></strong></p>
-  </div>
+  <body>
+    <!--**********************début du header*****************************************************-->
+    <div class="container">
+      <div class="colum1">
+        <h1>CLUB AUTO</h1>
+      </div>
 
-  <div class="item">
-       <img class="logo" src="Images/icone-adresse.png" alt="logo" id="icon-adresse">
-      <p class="color">ADRESSE:</p>
-      <p>AVENUE CHARLES DE GAULLE <br> 75000 PARIS </br></p>
-  </div>
+      <div class="colum2">
+        <img
+          class="logo-adresse"
+          src="Images/icone-adresse.png"
+          alt="logo-adresse"
+        />
+        <p class="color">ADRESSE:</p>
+        <p class="adresse" alt="adresse du garage">
+          AVENUE CHARLES DE GAULLE <br />75000 PARIS
+        </p>
+      </div>
 
-  <div class="item">
-      <img src="Images/icon-telephone.png" alt="logo" id="icon-telephone" >
-      <p class="color">TELEPHONE:</p>
-      <p> 01 23 45 67 89</p>
-  </div>
+      <div class="colum3">
+        <img
+          class="logo-telephone"
+          src="Images/icon-telephone.png"
+          alt="logo-telephone"
+        />
+        <p class="color">TELEPHONE:</p>
+        <p class="telephone" alt="numero de telephone du garage">
+          01 23 45 67 89
+        </p>
+      </div>
 
-  <div class="item">
-      <p class="color">OUVERTURE:</p> <p>Du Lundi au Samedi</p>
-      <p class="color">HORAIRES:</p><p>De 9h à 17h</p>
-  </div> 
+      <div class="colum4">
+        <p class="color1">OUVERTURE:</p>
+        <p class="ouverture" alt="jours ouverture garage">Du Lundi au Samedi</p>
+      </div>
 
-  <div>
-      <!--Logo et lien Facebook-->
-      <a href="https://www.facebook.com"><img class="facebook" src="Images/facebook.svg" alt="icon-facebook" title="Facebook" role="button"></a> 
-       <!--Logo et lien Twitter-->
-      <a href="https://twitter.com/"><img class="twitter" src="Images/twitter.svg" alt="icon-twitter" title="Twitter" role="button"></a>
-</div>  
+      <div class="colum5">
+        <p class="color1">HORAIRES:</p>
+        <p class="horaires" alt="les heures ouverture garage">De 9h à 17h</p>
+      </div>
 
-</header>
+      <div class="colum6">
+        <a href="https://www.facebook.com"
+          ><img
+            class="facebook"
+            src="Images/facebook.svg"
+            alt="icon-facebook"
+            title="Facebook"
+        /></a>
+        <a href="https://twitter.com/"
+          ><img
+            class="twitter"
+            src="Images/twitter.svg"
+            alt="icon-twitter"
+            title="Twitter"
+        /></a>
+      </div>
+    </div>
+    <!--fin du header-->
 
-<!--fin du header-->
+    <!--debut de la barre de navigation************************************************************-->
+    <div>
+      <ul>
+        <li><a class="nav" id="ventes" href="Ventes.html">Ventes</a></li>
+        <li>
+          <a class="nav" id="locations" href="Locations.html">Locations</a>
+        </li>
+        <li><a class="nav" id="contact" href="Contact.html">Contact</a></li>
+        <li><a class="nav" id="index" href="Index.html">Accueil</a></li>
+      </ul>
+    </div>
+    <!--Fin de la barre de navigation**************************************************************-->
+  <!--***********************************footer*****************************************************************-->
+  <footer>
+    <div class="footer">
+    
+    <div class="clubauto">
+      <h2 class="club">CLUB AUTO</h2>
+      <P> 17 rue des hortensia, 29200 Brest </P>
+    <hr>
+      <h3 class="titreh3">HORAIRES</h3>
+      <P>Du Lundi au Samedi, de 9h à 17h </P>
+    <hr>
+      <h3 class="titreh3">CONTACT</h3>
+      <P>contact@club-auto.bzh</P>
+    </div>
+    <hr>
 
-<!--debut de la barre de navigation-->
-<div id="mySidenav" class="sidenav">
-<a id="closeBtn" href="#" class="close">×</a>
-<nav class="navbar">
-    <ul>
-        <li><a href="Index.html">Accueil</a></li>
-        <li><a href="Contact.html">Contact</a></li>
-        <li><a href="Locations.html">Locations</a></li>
-        <li><a href="Ventes.html">Ventes</a></li>
-    </ul>
-    </nav>
-</div>
-<a href="#" id="openBtn">
-    <span class="burger-icon">
-      <span></span>
-      <span></span>
-      <span></span>
-    </span>
-  </a>
-  <!--Fin de la barre de navigation-->
+      <!--******************************boutons reseaux sociaux*****************************************************-->
+      <div class="reseaux">
+        <h3 class="h5">RESEAUX SOCIAUX</h3>
+        <a href="https://www.facebook.com/facebook/"
+          ><img class="facebook1" src="Images/facebook.svg" alt="icon-facebook"
+        /></a>
+        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin"
+          ><img class="twitter1" src="Images/twitter.svg" alt="icon-twitter"
+        /></a>
+        <a href="https://www.instagram.com/"
+          ><img class="insta1" src="Images/instagram.png" alt="icon-insta1"
+        /></a>
+        <a href="https://www.google.fr/"
+          ><img class="google1" src="Images/google-plus.png" alt="icon-google1"
+        /></a>
+      </div>
+    </div>
+    <div class="Copyright">
+      <p>Copyright &#169; Club Auto - Tous droits réservés</p>
+      <hr />
+    </div>
+  </footer>
+</html>
