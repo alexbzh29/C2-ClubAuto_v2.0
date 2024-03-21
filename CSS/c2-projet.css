@@ -25,6 +25,7 @@ body {
   background-color: #c3c3c3;
   ;
 }
+
 img {
   max-width: 100%;
   height: auto;
@@ -448,13 +449,15 @@ h4 {
   padding: 0%;
   padding-bottom: 0%;
 }
-.titre-h1{
+
+.titre-h1 {
   text-align: center;
   color: #CC6119;
 }
+
 /*champs de formulaire------------------------------------------------------*/
-.form{
-  text-align:center;
+.form {
+  text-align: center;
 }
 
 .contactez-nous {
@@ -559,10 +562,10 @@ button {
 .container {
   color: rgb(0, 0, 0);
   position: relative;
-  text-align:center;
-  padding-top:1%;
-  padding-bottom:2%;
-  height: 50% ;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  height: 50%;
 }
 
 .eurosjours {
@@ -572,21 +575,23 @@ button {
   margin: 10px;
   background-color: #6C98E1;
 }
-.texte-location{
+
+.texte-location {
   color: aliceblue;
 }
 
-.ensavoirplus{
+.ensavoirplus {
   color: #CC6119;
   text-decoration: none;
 }
 
- a:hover:not(.active) {
+a:hover:not(.active) {
   background-color: #CC6119;
   text-decoration: none;
   color: aliceblue;
 }
+
 /*-------------------Ventes----------------------------------*/
-.vente{
+.vente {
   text-align: center;
 }
