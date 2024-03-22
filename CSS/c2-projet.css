@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 @media screen and (max-width: 1200px) {
   /* Insérez vos propriétés CSS ici, avec vos sélecteurs*/
 }
@@ -455,9 +456,11 @@ h4 {
   color: #CC6119;
 }
 
-/*champs de formulaire------------------------------------------------------*/
+/*------------------champs de formulaire-----------------------------------*/
 .form {
   text-align: center;
+  color: #CC6119;
+  
 }
 
 .contactez-nous {
@@ -578,6 +581,10 @@ button {
 
 .texte-location {
   color: aliceblue;
+}
+
+.form{
+  color:#CC6119;
 }
 
 .ensavoirplus {
